@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".SignIn">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SignIn Page"
+        android:textSize="36dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/signin_page"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/username"
+        android:background="@drawable/coustom_edittext"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:hint="UserName"
+        android:layout_marginHorizontal="20dp"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/cardview_dark_background"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/phone_no"
+        android:background="@drawable/coustom_edittext"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:hint="Phone No"
+        android:layout_marginHorizontal="20dp"
+        android:inputType="phone"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/cardview_dark_background"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/password"
+        android:background="@drawable/coustom_edittext"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:hint="Password"
+        android:layout_marginHorizontal="20dp"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/cardview_dark_background"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/confirm_password"
+        android:background="@drawable/coustom_edittext"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:hint="Confirm Password"
+        android:layout_marginHorizontal="20dp"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/cardview_dark_background"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/create_accountButton"
+        android:text="Create Account"
+        android:textSize="15dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/purple_500"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/coustom_edittext"/>
+</LinearLayout>
